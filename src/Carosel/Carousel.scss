@@ -1,0 +1,20 @@
+.userCarousel{
+    position: relative;
+    .carousel {
+        .control-dots{
+            .dot {           
+                opacity: 0.5;            
+                width: 18px;
+                height: 5px;           
+                border-radius: 2px;
+            }
+        } 
+    }
+    .favicon{
+        font-size: 30px;
+        position: absolute;
+        z-index: 1;
+        right:2.5rem;
+        top:20px;
+    }
+}

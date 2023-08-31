@@ -1,0 +1,32 @@
+.MuiGrid-root.imageCol{    
+    justify-content: center;  
+}
+.diffDress{
+    justify-content: center;
+    margin-top: 5rem;
+    .MuiButton-root {
+        border: none;
+        text-decoration: underline;
+        font-size: 1rem;
+        text-transform: uppercase;
+        padding:0;
+        background-color:none;
+        &:hover{
+            border: none;
+            text-decoration: underline;
+            font-size: 1rem;
+            text-transform: uppercase;
+            padding:0;
+        }
+    }
+}
+.imageCol{
+    position: relative;
+    .favicon{
+        font-size: 30px;
+        position: absolute;
+        z-index: 1;
+        right:2.5rem;
+        top:20px;
+    }
+}

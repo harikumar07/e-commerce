@@ -1,0 +1,19 @@
+.feedbackSec{
+    padding-top:5rem;
+    p{
+        justify-content: center;
+        display:flex;
+    }
+    .MuiTypography-root.titSec{
+        text-transform: uppercase;
+        font-size: .8rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+    .MuiTypography-root.titDis{
+        font-size: 1.5rem;
+        text-transform: capitalize;
+        text-align: center;
+        padding-bottom: 1.5rem;
+    }
+}

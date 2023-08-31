@@ -1,0 +1,22 @@
+.MuiTabs-root{    
+    .Mui-selected{
+        font-weight:600;
+    }
+    .MuiTabs-indicator{
+        height:0;
+    }
+    .MuiTabs-flexContainer{
+        button{
+            align-items: flex-start;
+            padding:0 10px;
+            min-width:40px;
+        }
+    }
+}
+.tab-body{
+    padding: 10px 0;
+}
+.sticCl{
+    position: sticky;
+    top:80px;
+}

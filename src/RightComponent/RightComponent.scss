@@ -1,0 +1,80 @@
+.MuiTypography-root.dressname{
+    font-size: 3rem;
+    padding-right: 1rem;
+    line-height: 3rem;
+    margin-top:3.7rem;
+}
+.MuiTypography-root.dressDis{
+    font-size:.9rem;
+    margin-top:.5rem;
+    margin-bottom:.5rem;
+}
+.MuiTypography-root.price{
+    font-weight:bold;
+}
+.MuiTypography-root.dressColor{    
+    margin-top: 20px;
+    font-size: .9rem;
+    margin-bottom:10px;
+    span{
+        font-weight:bold;
+    }
+}
+.MuiButton-root.addBagBtn{
+    margin-top: 1rem ;
+    margin-bottom:1rem;
+    width: 100%;
+    padding: 15px;
+    border-radius: 50px;    
+}
+.dressSize{
+    .MuiButton-root {
+        border-radius: 20px;
+        min-width: 75px;
+        height: 32px;
+        border: 1px solid #ddd;
+        margin-left: 0;
+        margin-right: 15px;
+        margin-bottom: 0.6rem;
+    }
+    .MuiButton-root.selected{
+        background-color: #000;
+        color:#fff;
+    }    
+}
+.sizeDetails{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.dressSize{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-right{
+    padding-left:2rem;
+    padding-right:2rem;
+    position: sticky;
+    top:10rem;
+}
+
+.dresstypeArea{
+    margin-bottom:2rem;
+    .MuiButton-root{
+        padding: 0;
+        min-width: auto;
+        margin-right:10px;
+    }
+}
+.selectedSize{    
+    font-size: .9rem;    
+    span{
+        font-weight:bold;
+    }
+}
+.txtGuide{
+    text-decoration:underline;
+}
+.chatnowdis{
+    margin-top:.8rem;
+}
